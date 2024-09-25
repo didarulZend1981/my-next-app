@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AboutPage = () => {
+const AboutPage = ({children}) => {
   return (
     <div>
       <h2>about home....</h2>
