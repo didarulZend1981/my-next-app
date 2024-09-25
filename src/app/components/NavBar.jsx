@@ -22,6 +22,13 @@ const NavBar = () => {
       }
 
   ]
+  
+  if(pathName.includes('dashboards'))
+    return(
+      <div className="bg-grren">
+         dashboard Layout
+      </div>
+    )
 
   return (
     <>
