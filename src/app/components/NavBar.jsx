@@ -19,8 +19,12 @@ const NavBar = () => {
       {
         title:'Services',
         path: 'services'
+      },
+      {
+        title:'Dashboards',
+        path: 'dashboards'
       }
-
+      
   ]
   
   if(pathName.includes('dashboards'))
