@@ -1,9 +1,11 @@
 import { NextResponse } from 'next/server';
 
 
+const coo='next-superhero';
+
 export const middleware = (request) => {
   const cookies = request.cookies.get('token');
-  if(!cookies){
+  if(!cookies ||cookies.value !==coo ){
     
     return NextResponse.redirect(new URL('/login', request.nextUrl.origin));
 
