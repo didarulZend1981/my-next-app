@@ -1,10 +1,8 @@
 import React from 'react';
+import { getPosts } from '@/app/serviceApi.jsx/postApi';
 
-const getPosts = async()=>{
-  const res = await fetch("https://api.vercel.app/blog");
-  const data =await res.json();
-  return data;
-}
+
+
 const page = async() => {
   const postData=await getPosts();
   // console.log(postData);
