@@ -3,3 +3,4 @@ export const getPosts = async()=>{
   const data =await res.json();
   return data;
 }
+
