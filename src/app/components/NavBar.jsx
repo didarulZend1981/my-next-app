@@ -28,7 +28,12 @@ const NavBar = () => {
       {
         title:'Posts',
         path: 'posts'
+      },
+      {
+        title:'Meals',
+        path: 'meals'
       }
+
       
   ]
   
